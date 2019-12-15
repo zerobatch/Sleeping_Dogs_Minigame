@@ -1,0 +1,47 @@
+body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main.main-game-container {
+    display:block;
+    margin: 5em auto;
+    padding: 2em;
+    text-align: center;
+}
+
+section#game-history {
+    margin: 0.5em;
+
+}
+
+div.number-container {
+   display:flex;
+   align-items: center;
+   justify-content: center;
+}
+
+div.number-wrapper {
+    width:100%;
+    max-width:25px;
+    height:auto;
+    max-height:25px;
+    overflow-y:auto;
+    border:1px solid black;
+}
+div.number-wrapper div {
+    padding: 0.22em 0;
+    text-align: center;
+}
+
+form#options {
+    margin-top: 3em
+}
+
+.enter-input {
+    color:blue;
+    
+}
